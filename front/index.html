@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <form id="search-form" class="search-form">
+            <label for="title" class="search-label">Search:</label>
+            <div class="search-container">
+                <input type="search" id="title" class="search-bar" name="t" placeholder="Example: Joker">
+                <button type="submit" name="submit-btn" class="search-button">Search</button>
+            </div>
+        </form>
+
+        <script src="movies.js" defer></script>
+        <table>
+            <thead>
+                <tr>
+                    <th>Movie</th>
+                    <th>Year</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody id="movies-table">
+            </tbody>
+        </table>
+
+        <h2 class="title-recommendations">Recommendations:</h2>
+        <script src="recommendation.js" defer></script>
+        <div class="container-carousel">
+            <div class="container-movies" id="container-movies">
+                <!-- <div class="movie"><img src="imagenes/imagen1.jpg"></div>
+                <div class="movie"><img src="imagenes/imagen2.jpg"></div>
+                <div class="movie"><img src="imagenes/imagen3.jpg"></div>                    
+                <div class="movie"><img src="imagenes/imagen44.jpg"></div> -->
+            </div>
+            <div class="button button-prev" id="button-prev" >&#60</div>
+            <div class="button button-next" id="button-next">&#62</div>
+        </div>
+
+    </main>
+</body>
+</html>
