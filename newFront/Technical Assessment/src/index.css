@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: grid;
+    align-content: center;
+    place-content: start space-evenly;
+    min-height: 100vh;
+}
